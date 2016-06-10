@@ -1,0 +1,151 @@
+@cream: #D8D4BB;
+body {
+	font-family: sans-serif;
+	background: @cream;
+}
+h1 {
+	font-weight: bold;
+}
+.wrap {
+	text-align: center;
+	background: #fff url(../img/man.jpg) no-repeat 100% 100%;
+	padding: 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
+	border-radius: 10px;
+
+}
+.action {
+	height: 200px;
+}
+#result {
+	display: none;
+}
+.header-info {
+	float: right;
+}
+#question {
+  margin-bottom: 20px;
+}
+#show {
+	font-size: 80px;
+	font-weight: bold;
+	text-align: center;
+	height: 200px;
+	line-height: 200px;
+}
+#button {
+	margin: 0 auto;
+	padding: 20px 40px;
+	background: green;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-o-border-radius: 8px;
+	border-radius: 8px;
+	font-size: 30px;
+	color: #fff;
+	-webkit-transition: 0.3s all;
+	-o-transition: 0.3s all;
+	transition: 0.3s all;
+	display: inline-block;
+	cursor: pointer;
+}
+#button:hover {
+	background: #40A040;
+}
+#result-color {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: left;
+}
+.action h2 {
+	font-weight: bold;
+}
+#result-color li {
+	margin: 0;
+	padding: 0;
+//	float: left;
+}
+
+#result-color label {
+	display: inline-block;
+	line-height: 30px;
+	cursor: pointer;
+	font-size: 30px;
+	font-weight: normal;
+}
+#result-color input {
+	display: none;
+}
+#result-color input + label:before {
+	width: 30px;
+	height: 30px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	border-radius: 50%;
+	border: solid 1px #444;
+	content: "";
+	display: inline-block;
+	float: left;
+	margin-right: 10px;
+	cursor: pointer;
+	-webkit-transition: 0.3s all;
+	-o-transition: 0.3s all;
+	transition: 0.3s all;
+}
+
+#result-color input:checked + label:before,
+#result-color li:hover input + label:before {
+	background: #444;
+}
+.again {
+	background: forestgreen;
+	color: @cream;
+	padding: 10px 20px;
+	-webkit-transition: 0.3s all;
+	-o-transition: 0.3s all;
+	transition: 0.3s all;
+	text-decoration: none;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
+	border-radius: 6px;
+	font-size: 1.6em;
+	font-weight: bold;
+	margin-top: 50px;
+	display: inline-block;
+	&:hover {
+		background: lighten(forestgreen, 10%);
+		color: #fff;
+		text-decoration: none;
+	}
+}
+#explain {
+  background: #444 url("http://rayhyde.nl/playground/img/playground.png") no-repeat scroll 98% bottom / 150px auto;
+  border-radius: 10px;
+  color: #fff;
+  margin: 30px 0;
+  padding: 20px 180px 20px 20px;
+	min-height: 160px;
+	h2 {
+		margin: 0 0 10px;
+	}
+	a {
+		color: @cream;
+		-webkit-transition: 0.3s all;
+		-o-transition: 0.3s all;
+		transition: 0.3s all;
+		border-bottom: solid 1px @cream;
+		&:hover {
+			border-color: transparent;
+			text-decoration: none;
+		}
+	}
+}

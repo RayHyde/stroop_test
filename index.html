@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+
+<html lang='en'>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Language" content="en" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Stroop Test</title>
+	<meta name="description" content="Take a Stroop Test online">
+	<meta name="keywords" content="jquery, psychology, test, stroop, stroop test, online test">
+	<meta name="author" content="Ray Hyde | www.rayhyde.nl">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/strooptest.css">
+	<link rel="stylesheet" href="http://www.rayhyde.nl/playground/css/playground.css">
+</head>
+
+<body>
+	<div class="tip">
+		<div class="text">
+			<div class="inner">
+				<p class="tip-text"></p>
+				<p><a href="">Next</a></p></div>
+		</div>
+		<div class="spot"></div>
+	</div>
+	<div class="container">
+	<div class="row">
+		<div class="col-xs-12 col-sm-4">
+			<h1>Stroop Test</h1>
+		</div>
+		<div class="col-xs-12 col-sm-8">
+			<h2><div class="header-info"><span id="countdown"></span> | <span id="timer"></span></div></h2>
+		</div>
+	</div>
+		<div class="wrap">
+			<p id="show"></p>
+			<div class="action">
+				<h2 id="question">What is the <u>actual</u> colour of the word?</h2>
+				<ul id="result-color" class="row">
+				</ul>
+				<div id="result">
+					<div class="done"></div>
+					<a href="" class="again">Another test?</a>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 col-md-8">
+					<p class="clearfix">In psychology, the Stroop effect demonstrates the interference in the reaction time of a task. When a word such as blue, green, red, etc. is shown in a colour differing from the colour what the word actually says (i.e. the word “<span style="color: blue; font-weight: bold">red</span>” shown in blue letters), a delay occurs in our brain in the processing of the word's actual colour, leading to slower test reaction times and an increase in mistakes. The effect is named after its discoverer, John Ridley Stroop in 1935. <a href="https://en.wikipedia.org/wiki/Stroop_effect">See Wikipedia</a></p>
+				</div>
+				<div class="col-xs-6 col-md-4">
+					
+				</div>
+			</div>
+				
+		</div>
+		<div id="explain">
+			<h3>Not <em>another</em> Stroop test?</h3>
+			<p>There are so many ugly, incomprehensible or broken Stroop tests out there on the Net, I felt it was my civic duty to make a clean and fast one in jQuery.</p>
+			<p class="extra-padding"><a href="http://rayhyde.nl/pf_js-en.php">Drop in on my playground section at www.rayhyde.nl for other fun and <em><small>(ahem)</small></em> clever stuff!</a></p>
+		</div>
+	</div>
+
+	<script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="js/strooptest.js"></script>
+
+</body>
+
+</html>
