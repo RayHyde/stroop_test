@@ -123,7 +123,7 @@ h1 {
   text-decoration: none;
 }
 #explain {
-  background: #444444 url("http://rayhyde.nl/playground/img/playground.png") no-repeat scroll 98% bottom / 150px auto;
+  background: #444444 url("../img/playground.png") no-repeat scroll 98% bottom / 150px auto;
   border-radius: 10px;
   color: #fff;
   margin: 30px 0;
